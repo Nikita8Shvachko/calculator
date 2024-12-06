@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -dynamiclib -Wl,-headerpad_max_install_names -o libsin.dylib -install_name @rpath/libsin.dylib CMakeFiles/sin.dir/plugins/sin.cpp.o

@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "calculator",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -39,8 +41,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "calculator::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-calculator-Debug-e23a55b523bc3f91c286.json",
+					"jsonFile" : "target-calculator-Debug-b5781041875e73a8ff7d.json",
 					"name" : "calculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sin-Debug-d6bc8f38282aa3b90b82.json",
+					"name" : "sin",
 					"projectIndex" : 0
 				}
 			]
@@ -55,6 +64,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }
