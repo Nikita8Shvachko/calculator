@@ -140,7 +140,7 @@ double Calculator::parseFactor(std::istringstream &input) {
         if (operationsUN.find(funcName) != operationsUN.end()) {
             // Expect '(' after function name
             if (input.get() != '(') {
-                throw std::runtime_error("Expected '(' after function name: " + funcName);
+                 throw std::runtime_error("Expected '(' after function name: " + funcName);
             }
 
             // Parse the argument of the function

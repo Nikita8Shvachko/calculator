@@ -32,7 +32,7 @@ public:
     void loadPlugin(const std::string &pluginPath);
 
 
-    // Primary method for parsing an expression
+    // Primary m ethod for parsing an expression
     double parse(const std::string &expr);
 
     // Destructor to close all loaded plugins

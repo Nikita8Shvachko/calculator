@@ -6,7 +6,7 @@
 int main() {
     Calculator calc;
     try {
-        calc.loadPlugin("../plugins/build/sin.dylib");
+        calc.loadPlugin("../plugins/ build /sin.dylib");
 
         std::string expression = "sin(3) ";
         double result = calc.parse(expression);
