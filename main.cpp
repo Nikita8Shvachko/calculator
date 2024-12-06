@@ -13,7 +13,7 @@ int main() {
         std::cout << "Result: " << result << std::endl;
 
     } catch (const std::exception &ex) {
-        std::cerr << "Error: " << ex.what() << std::endl;
+        std::cerr << "E rror: " << ex.what() << std::endl;
     }
     return 0;
 }
