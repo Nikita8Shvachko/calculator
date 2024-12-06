@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "calculator"
+			"path" : "libsin.dylib"
 		}
 	],
 	"backtrace" : 1,
@@ -10,7 +10,7 @@
 	{
 		"commands" : 
 		[
-			"add_executable"
+			"add_library"
 		],
 		"files" : 
 		[
@@ -35,7 +35,13 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics"
+					"fragment" : "-g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fPIC -fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "sin_EXPORTS"
 				}
 			],
 			"language" : "CXX",
@@ -53,15 +59,11 @@
 			]
 		}
 	],
-	"id" : "calculator::@6890427a1f51a3e7e1df",
+	"id" : "sin::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
-			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
 			{
 				"fragment" : "",
 				"role" : "flags"
@@ -69,8 +71,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "calculator",
-	"nameOnDisk" : "calculator",
+	"name" : "sin",
+	"nameOnDisk" : "libsin.dylib",
 	"paths" : 
 	{
 		"build" : ".",
@@ -91,9 +93,9 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "plugins/sin.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "EXECUTABLE"
+	"type" : "SHARED_LIBRARY"
 }

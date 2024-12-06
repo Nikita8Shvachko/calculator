@@ -1,3 +1,4 @@
+/Users/askoritan/programming/calculator/cmake-build-debug/CMakeFiles/sin.dir
 /Users/askoritan/programming/calculator/cmake-build-debug/CMakeFiles/calculator.dir
 /Users/askoritan/programming/calculator/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/askoritan/programming/calculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
